@@ -1,0 +1,58 @@
+body{
+    overflow: hidden;
+}
+.leftside, .rightside {
+    height:50vh;
+    width:100%;
+}
+.title{
+    text-align: center;
+}
+@media screen and (min-width:768px)
+{
+    .leftside, .rightside {
+        height:100vh;
+    }
+}
+.leftside {
+    background:#DE0100;
+    background-image: url(https://strgnfibcom.blob.core.windows.net/nfibcom/donaldtrump-icon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid black;
+}
+.rightside {
+    background:#1405BD;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Joe_Biden_official_portrait_2013.jpg/1200px-Joe_Biden_official_portrait_2013.jpg);
+    border: solid black;
+}
+
+.leftside:hover{
+    opacity: 0.5;
+}
+
+.rightside:hover{
+    opacity: 0.5;
+}
+
+.header{
+    display: inline;
+    text-align: center;
+}
+
+#candidateName{
+    margin-left:300px;
+}
+#candidateParty{
+    margin-left: 200px;
+}
+
+#candidateImg{
+    margin-left:500px;
+    margin-top:50px;
+}
+#candidateAddress{
+    text-align: center;
+}
