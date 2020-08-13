@@ -1,5 +1,6 @@
 body{
     overflow: hidden;
+    background-color: #db8ef5;
 }
 .leftside, .rightside {
     height:50vh;
@@ -10,10 +11,38 @@ body{
 }
 @media screen and (min-width:768px)
 {
-    .leftside, .rightside {
-        height:100vh;
+    body{
+    overflow-y: scroll;
     }
+    .leftside, .rightside {
+        height:500px;
+    }
+    .candidateName{
+     text-align: center !important;
+    }
+    .candidateParty{
+        text-align: center;
+    }
+    .candidateImg{
+        margin-left: 365px;
+    }
+    .candidateAddress{
+        margin-top: 50px;
+    }
+    .urlDiv{
+        text-align: center;
+    }
+    .medias{
+        text-align: center;
+    }
+
 }
+
+.candidateImg{
+    display: block;
+    margin: auto;
+}
+
 .leftside {
     background:#DE0100;
     background-image: url(https://strgnfibcom.blob.core.windows.net/nfibcom/donaldtrump-icon.jpg);
@@ -29,6 +58,7 @@ body{
     border: solid black;
 }
 
+
 .leftside:hover{
     opacity: 0.5;
 }
@@ -42,17 +72,31 @@ body{
     text-align: center;
 }
 
-#candidateName{
-    margin-left:300px;
-}
-#candidateParty{
-    margin-left: 200px;
+
+
+.candidateAddress{
+    text-align: center;
 }
 
-#candidateImg{
-    margin-left:500px;
-    margin-top:50px;
+.urls{
+    text-decoration: none;
+    color: blue;
 }
-#candidateAddress{
-    text-align: center;
+
+.urls:hover{
+    color: #a9cffc; 
+}
+
+.urls:visited{
+    color: blue;
+    text-decoration: none;
+}
+
+#logo{
+    height:100px;
+    width:100px;
+}
+
+#logo:hover{
+    opacity: 0.5;
 }
