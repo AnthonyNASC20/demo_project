@@ -1,14 +1,24 @@
 body{
     overflow: hidden;
-    background-color: #db8ef5;
+    background-color: rgb(154, 206, 219);
 }
-.leftside, .rightside {
-    height:50vh;
-    width:100%;
+
+#usMap{
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
+
+
 .title{
+    margin-top: -100px;
     text-align: center;
 }
+
+
 @media screen and (min-width:768px)
 {
     body{
@@ -38,46 +48,20 @@ body{
 
 }
 
-.candidateImg{
-    display: block;
-    margin: auto;
-}
-
-.leftside {
-    background:#DE0100;
-    background-image: url(https://strgnfibcom.blob.core.windows.net/nfibcom/donaldtrump-icon.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid black;
-}
-.rightside {
-    background:#1405BD;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Joe_Biden_official_portrait_2013.jpg/1200px-Joe_Biden_official_portrait_2013.jpg);
-    border: solid black;
-}
-
-
-.leftside:hover{
-    opacity: 0.5;
-}
-
-.rightside:hover{
-    opacity: 0.5;
-}
-
-.header{
-    display: inline;
+.tabs {
+    border: 1px solid black;
+    max-width: 70px;
     text-align: center;
+    background-color: rgb(120, 124, 125);
+    color: rgb(213, 240, 247);
+    max-height: 40px;
 }
 
 
-
-.candidateAddress{
-    text-align: center;
+.tabs:hover {
+    background-color: rgb(196, 196, 196);
+    
 }
-
 .urls{
     text-decoration: none;
     color: blue;
